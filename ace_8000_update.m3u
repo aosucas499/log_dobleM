@@ -1,0 +1,19 @@
+#EXTM3U Acestream Deportes 29/07/2023 13:00
+#EXTINF:-1 tvg-id="·vamos 1080" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/%23Vamos%20HD.png" group-title="",·vamos 1080 
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·vamos 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/%23Vamos.png" group-title="",·vamos 720 
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·M. Deportes 1080" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/M%2B%20Deportes%20HD.png" group-title="",·M. Deportes 1080 
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·M. Deportes 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/M%2B%20Deportes.png" group-title="",·M. Deportes 720 
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·DAZN F1 1080" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/DAZN%20F1%20HD.png" group-title="",·DAZN F1 1080
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·DAZN F1 1080 v2" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/DAZN%20F1%20BAR.png" group-title="",·DAZN F1 1080 v2
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·DAZN F1 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/DAZN%20F1.png" group-title="",·DAZN F1 720
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·#0 de Movistar 1080" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/master/icon/%230%20HD.png" group-title="",·#0 de Movistar 1080 
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·Espn 2 usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png?20160127215859" group-title="",·Espn 2 usa 
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/_/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
