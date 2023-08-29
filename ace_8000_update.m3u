@@ -17,3 +17,5 @@ pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/e1fcad9de0c782c157fde637
 pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/864fc1be34bdedc4bc2c7bb92098c61df8e9c7c2/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
 #EXTINF:-1 tvg-id="·Espn 2 usa" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/thumb/b/bf/ESPN2_logo.svg/512px-ESPN2_logo.svg.png?20160127215859" group-title="",·Espn 2 usa 
 pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/664eb5fe460b96941aed633959a845b185cd8394/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="·M+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Movistar_Plus_%28Peru%29_-_2017_logo.png" group-title="",·Movistar+ 
+pipe:///usr/bin/ffmpeg -re -i 5a236fbbe6e5bbfec03db548c244a7c858d675c0/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
