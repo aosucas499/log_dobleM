@@ -17,14 +17,11 @@ pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/e1fcad9de0c782c157fde637
 pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:8000/pid/664eb5fe460b96941aed633959a845b185cd8394/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
 #EXTINF:-1 tvg-id="·M+" tvg-logo="https://upload.wikimedia.org/wikipedia/commons/8/8e/Movistar_Plus_%28Peru%29_-_2017_logo.png" group-title="",·Movistar+ 
 pipe:///usr/bin/ffmpeg -re -i 5a236fbbe6e5bbfec03db548c244a7c858d675c0/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
-#EXTINF:-1 tvg-id="Gol Mundial1" tvg-logo="https://static.golmundial.com/assets/shared/logos/courtside/golmundial-yellow.svg" group-title="",Gol Mundial1
-pipe:///usr/bin/ffmpeg -re -i 78384a676407784df944243eb2f75d937fbcc253/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
-#EXTINF:-1 tvg-id="Gol Mundial2" tvg-logo="https://static.golmundial.com/assets/shared/logos/courtside/golmundial-yellow.svg" group-title="",Gol Mundial2
-pipe:///usr/bin/ffmpeg -re -i
-4af5952b95d3c2e99fcdc0de2f528d3fcd73e06b/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
-#EXTINF:-1 tvg-id="Gol Mundial3" tvg-logo="https://static.golmundial.com/assets/shared/logos/courtside/golmundial-yellow.svg" group-title="",Gol Mundial3
-pipe:///usr/bin/ffmpeg -re -i
-52c8ff01836c294caad8b8c029b53360aa16a4cd/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
-#EXTINF:-1 tvg-id="Gol Mundial4" tvg-logo="https://static.golmundial.com/assets/shared/logos/courtside/golmundial-yellow.svg" group-title="",Gol Mundial4
-pipe:///usr/bin/ffmpeg -re -i
-5a8d60f4c8e558f8ae5acad7c75f455928ce0c2e/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="DAZN La liga 1 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/938e0d43f11a138e2586ff164a86a4189c310597/icon/DAZN%20LaLiga%202.png" group-title="",DAZN La liga 1 720
+pipe:///usr/bin/ffmpeg -re -i a3bca895c58d3fc7d5e4259d3d5e3cf0291d1914/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="DAZN La liga 2 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/938e0d43f11a138e2586ff164a86a4189c310597/icon/DAZN%20LaLiga%202.png" group-title="",DAZN La liga 2 720
+pipe:///usr/bin/ffmpeg -re -i 0950c37fe1ea817fc561c611ae943d58505f7a79/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1 0950c37fe1ea817fc561c611ae943d58505f7a79/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="Movistar la liga 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/938e0d43f11a138e2586ff164a86a4189c310597/icon/M%2B%20LaLiga%20TV.png" group-title="",Movistar la liga 720
+pipe:///usr/bin/ffmpeg -re -i f031f5728b32f6089dda28edebe990cf198108d8/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
+#EXTINF:-1 tvg-id="Movistar liga campeones 720" tvg-logo="https://github.com/davidmuma/picons_dobleM/blob/938e0d43f11a138e2586ff164a86a4189c310597/icon/M%2B%20Liga%20de%20Campeones%201.png" group-title="",
+Movistar liga campeones 720 pipe:///usr/bin/ffmpeg -re -i e2e2aca792aae5da19995ac516b1d620531bd49c/stream.mp4 -vcodec copy -acodec copy -f mpegts -tune zerolatency pipe:1
