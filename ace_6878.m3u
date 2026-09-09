@@ -7,6 +7,8 @@ pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:6878/ace/getstream?id=a64e02a6d91
 pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:6878/ace/getstream?id=d16a9b50042cb9d6e648cae3b1472f655c4def61 -vcodec copy -acodec copy -f mpegts pipe:1
 #EXTINF:-1,Liga Campeones 
 pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:6878/ace/getstream?id=63e4713e8379f2ebf5e6ed9aa00fbf78ebae7439 -vcodec copy -acodec copy -f mpegts pipe:1
+#EXTINF:-1,Liga Campeones HD
+pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:6878/ace/getstream?id=931fd4c24398a24beb9b6ede856ca34339ff2c22 -vcodec copy -acodec copy -f mpegts pipe:1
 #EXTINF:-1,Liga Campeones 2
 pipe:///usr/bin/ffmpeg -re -i http://127.0.0.1:6878/ace/getstream?id=47188da7d2e4beaee82cff174f223fdd23f78fa6 -vcodec copy -acodec copy -f mpegts pipe:1
 #EXTINF:-1,Liga Campeones 3
